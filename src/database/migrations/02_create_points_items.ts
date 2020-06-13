@@ -17,5 +17,5 @@ export async function up(knex : Knex){
 
 export async function down(knex : Knex){
     //Voltar a atras, fazer o contrário do up
-    return knex.schema.dropTable('point_items');
+    //return knex.schema.dropTable('point_items');
 }
